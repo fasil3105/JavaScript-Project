@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding:0;
+    --heading:#0C0C0C;
+}
+.parent {
+background-image: url(./flower.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+display: flex;
+flex-wrap: nowrap;
+justify-content: center;
+align-items: center;
+height:100vh;
+box-sizing:border-box;
+}
+.container{
+min-width: 600px;
+
+
+}
+h1{
+color:var(--heading);
+margin-left:120px;
+}
+p{
+margin-top:20px;
+font-size:large;
+text-align: center;
+color:#790252
+
+
+}
+.btn{
+margin-top:20px;
+padding:0.7rem;
+border:none;
+border-radius: 15px;
+background: blue;
+color:azure;
+}
+.btn:hover{
+background-color:rgb(3, 7, 6);
+}
+.generator{
+margin-left:230px;
+}

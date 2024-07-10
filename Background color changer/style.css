@@ -1,0 +1,27 @@
+
+        .parent{
+            display:flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-content: center;
+            height:100vh;
+
+        
+        }
+        #green{
+            background-color: green;
+        }
+        #red{
+            background-color: red;
+        }
+        #blue{
+            background-color: blue;
+        }
+        button{
+            border-radius: 5px;
+            width:100px;
+            height:40px;
+            margin: 5px;
+            color:rgb(3, 0, 2);
+            text-transform: uppercase;
+        }
