@@ -1,0 +1,85 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+body{
+    background-color:#262a2f;
+}
+.container{
+    background-color: #fff;
+    width:400px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    border-radius: 20px;
+    padding: 20px 35px;
+    margin-bottom: 8px;
+}
+
+.text input{
+    outline:0;
+    border:1.5px solid #494eea;
+    width:100%;
+    height:50px;
+    padding:10px 5px;
+    margin:15px 0 15px;
+    border-radius: 5px;
+}
+.text button{
+    border:0;
+    outline:0;
+    width:100%;
+    height:40px;
+    padding:10px;
+    border-radius: 5px;
+    color:#fff;
+    background-color:#494eea;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+    cursor:pointer;
+    font-weight: 500;
+    margin:10px 0;
+}
+
+#imgBox{
+    max-height: 0;
+    overflow:hidden;
+    border-radius: 5px;
+    width:200px;
+    transition: max-height 1s;
+}
+#imgBox img{
+    width:100%;
+    padding: 10px;
+}
+#imgBox.show-img{
+    max-height:300px;
+    margin:10px auto;
+    border:1px solid #d1d1d1;
+}
+.error{
+    animation:shake 0.1s linear 10;
+
+}
+@keyframes shake {
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(-2px);
+    }
+    50%{
+        transform: translateX(0);
+    }
+    75%{
+        transform: translateX(2px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+    
+}
